@@ -1,0 +1,18 @@
+#game-container {
+	display: none;
+}
+
+.letter {
+	display: inline-block;
+	border: 2px solid black;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.letter-used {
+	border-color: red;
+	cursor: default;
+}
